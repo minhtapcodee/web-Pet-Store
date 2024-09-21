@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: linear-gradient(180deg, yellow, rgba(163, 202, 112, 0.555));
+  background-size: cover;
+  /* / url("chomeo.jpg");
+  background-repeat: no-repeat; /* Ngăn không cho hình ảnh lặp lại 
+  background-size: cover; /* Đảm bảo hình ảnh phủ kín màn hình 
+  background-position: center; /* Căn giữa hình ảnh */
+}
+
+section {
+  position: relative;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.5);;
+  border: 2px solid rgba(170, 19, 19, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(55px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 3rem;
+}
+h1 {
+  font-size: 2rem;
+  color: #37722b;
+  text-align: center;
+}
+
+.inputbox {
+  position: relative;
+  margin: 30px 0;
+  max-width: 310px;
+  border-bottom: 2px solid #2a3599;
+}
+
+.inputbox label {
+  position: absolute;
+  top: 58%;
+  left: 5px;
+  transform: translateY(-58%);
+  color: #fff;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: all 0.55s ease;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  top: -5px;
+}
+.inputbox input {
+  width: 100%;
+  height: 60px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0 35px 0 5px;
+  color: #8b7d2c;
+}
+
+.inputbox ion-icon {
+  position: absolute;
+  right: 8px;
+  color: #ac1a88;
+  font-size: 1.2rem;
+  top: 20px;
+}
+
+.forget {
+  margin: 35px 0;
+  font-size: 0.85rem;
+  color: #1c97a0;
+  display: flex;
+  justify-content: space-between;
+}
+.forget label {
+  display: flex;
+  align-items: center;
+}
+
+.forget label input {
+  margin-right: 3px;
+}
+
+.forget a {
+  color: #2a4b8a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.forget a:hover {
+  text-decoration: underline;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background-color: rgb(93, 211, 39);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.4s ease;
+}
